@@ -2,7 +2,7 @@
 
 julia_version = "1.12.6"
 manifest_format = "2.0"
-project_hash = "052298baa646e71935de6a615cb3d08e935d3bc2"
+project_hash = "1fab1676ef6a2451a8ca2fbf26547bfe0f1b54e2"
 
 [[deps.ADTypes]]
 git-tree-sha1 = "ec6be48a85c93d995563b84bff8a86bc98df45ce"
@@ -1823,6 +1823,12 @@ deps = ["CodeTracking", "Compiler", "JuliaInterpreter"]
 git-tree-sha1 = "1d4c737ab26f51ceed52ab2019c09b7660eb7440"
 uuid = "6f1432cf-f94c-5a45-995e-cdbf5db27b0b"
 version = "3.8.0"
+
+[[deps.LsqFit]]
+deps = ["ADTypes", "Distributions", "ForwardDiff", "LinearAlgebra", "NLSolversBase", "Printf", "StatsAPI", "StatsBase"]
+git-tree-sha1 = "2d9020c65000105e8e243d776f7daa1c345c881f"
+uuid = "2fda8390-95c7-5789-9bda-21331edee243"
+version = "0.16.1"
 
 [[deps.METIS_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl"]
